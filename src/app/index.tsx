@@ -13,9 +13,7 @@ const Index = () => {
   return (
     <View>
       <Text>Hello world</Text>
-        <Dynamic/>
-        <Inlinestyle/>
-        <Externalstylesheet/>
+        
     </View>
   )
 }
