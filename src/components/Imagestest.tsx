@@ -5,7 +5,7 @@ const Imagestest = () => {
   return (
     <View>
       <Text>Imagestest</Text>
-      <Image source={require("../assets/webdevelopment.jpeg")} style={{width:200,height:200}}/>
+      <Image source={require("../assets/webdevelopment.jpeg")} style={{width:300,height:400}}/>
       <Image source={{uri:"https://reactjs.org/logo-og.png"}} style={{height:200,width:200}}/>
     </View>
   )

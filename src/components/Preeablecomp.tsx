@@ -5,7 +5,7 @@ const Preeablecomp = () => {
   return (
     <View>
    <Pressable onPress={()=>console.log('pressed')}>
-    <Text style={{color:"red"}}>Press me</Text>
+    <Text style={{color:"red"}}>Press me 1</Text>
    </Pressable>
 
    <Pressable onPressIn={()=>console.log('clicked on press')}>
