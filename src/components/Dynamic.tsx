@@ -3,7 +3,7 @@ import React from 'react'
 
 const Dynamic = () => {
     const username="Vilas";
-    const multiplyy=(a:number,b:number) =>{return a*b}
+    const multiplyy=(a:number,b:number): number =>{return a*b}
     
 
   return (
