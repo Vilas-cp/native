@@ -1,7 +1,13 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Dynamic = () => {
+interface propy{
+  queen:string
+  king:string
+  kon:number
+}
+
+const Dynamic = ({king,queen,kon}:propy) => {
     const username="Vilas";
     const multiplyy=(a:number,b:number) =>{return a*b}
     
@@ -12,6 +18,9 @@ const Dynamic = () => {
       <Text>
         {multiplyy(2,3)}
    
+      </Text>
+      <Text>
+        {king}*{kon}
       </Text>
     </View>
   )

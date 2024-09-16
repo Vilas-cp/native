@@ -9,14 +9,13 @@ import Inlinestyle from '../components/Inlinestyle'
 import Externalstylesheet from '../components/Externalstylesheet'
 import Flatlistcomp from '../components/Flatlistcomp'
 import Arrayofobj from '../components/Arrayofobj'
+import Conditonal from '../components/conditonal'
 
 
 const Index = () => {
   return (
     <View>
-      <Text>Hello world</Text>
-      <Flatlistcomp/>
-      <Arrayofobj/>
+ <Conditonal/>
         
     </View>
   )
