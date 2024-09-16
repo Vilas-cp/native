@@ -10,13 +10,16 @@ import Externalstylesheet from '../components/Externalstylesheet'
 import Flatlistcomp from '../components/Flatlistcomp'
 import Arrayofobj from '../components/Arrayofobj'
 import Conditonal from '../components/conditonal'
+import Stateexample from '../components/basicCounter/Stateexample'
+import Stateexmp from '../components/basicCounter/Stateexmp'
+import Whetherapp from '../components/basicCounter/Whetherapp'
 
 
 const Index = () => {
   return (
     <View>
- <Conditonal/>
-        
+   <Text>hello</Text>
+      <Whetherapp/>
     </View>
   )
 }
