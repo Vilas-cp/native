@@ -14,6 +14,7 @@ import Stateexample from '../components/basicCounter/Stateexample'
 import Stateexmp from '../components/basicCounter/Stateexmp'
 import Whetherapp from '../components/basicCounter/Whetherapp'
 import Staterun from '../components/basicCounter/Staterun'
+import Anotherexamp from '../components/basicCounter/Anotherexamp'
 
 
 
@@ -24,7 +25,8 @@ const Index = () => {
     <View>
    <Text>hello</Text>
  
-     <Staterun/> 
+   
+     <Anotherexamp/>
     </View>
   )
 }
