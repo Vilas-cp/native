@@ -13,7 +13,9 @@ import Conditonal from '../components/conditonal'
 import Stateexample from '../components/basicCounter/Stateexample'
 import Stateexmp from '../components/basicCounter/Stateexmp'
 import Whetherapp from '../components/basicCounter/Whetherapp'
-import Examp from '../components/basicCounter/examp'
+import Staterun from '../components/basicCounter/Staterun'
+
+
 
 
 
@@ -21,8 +23,8 @@ const Index = () => {
   return (
     <View>
    <Text>hello</Text>
-      <Examp/>
-      
+ 
+     <Staterun/> 
     </View>
   )
 }
