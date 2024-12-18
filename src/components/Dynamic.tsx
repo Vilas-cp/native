@@ -9,7 +9,7 @@ interface propy{
 
 const Dynamic = ({king,queen,kon}:propy) => {
     const username="Vilas";
-    const multiplyy=(a:number,b:number) =>{return a*b}
+    const multiplyy=(a:number,b:number): number =>{return a*b}
     
 
   return (
